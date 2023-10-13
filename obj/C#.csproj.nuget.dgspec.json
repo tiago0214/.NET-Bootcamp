@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tiago/Desktop/dotnet-bootcamp/C#.csproj": {}
+    "C:\\Users\\tiago\\Desktop\\estudos c#\\C#.csproj": {}
   },
   "projects": {
-    "/Users/tiago/Desktop/dotnet-bootcamp/C#.csproj": {
+    "C:\\Users\\tiago\\Desktop\\estudos c#\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tiago/Desktop/dotnet-bootcamp/C#.csproj",
+        "projectUniqueName": "C:\\Users\\tiago\\Desktop\\estudos c#\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "/Users/tiago/Desktop/dotnet-bootcamp/C#.csproj",
-        "packagesPath": "/Users/tiago/.nuget/packages/",
-        "outputPath": "/Users/tiago/Desktop/dotnet-bootcamp/obj/",
+        "projectPath": "C:\\Users\\tiago\\Desktop\\estudos c#\\C#.csproj",
+        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tiago\\Desktop\\estudos c#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tiago/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.415/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
         }
       }
     }

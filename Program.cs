@@ -62,9 +62,44 @@ Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 //isso não quer dizer que vai dar certo. Se tiver algum valor invalido quebra o código (ARRISCADO)
 
 int a = Convert.ToInt32("5");
+Console.WriteLine(a);
 //Covert: é uma class e o ToInt32(): é um método.
 
 //posso converter de outra maneira.
 int b = int.Parse("5");
 //posso fazer .Parse(), com outros tipos. double.Parse(), float.parse();
 //tomar cuidado, porque pode acontecer de o programa não conseguir fazer a conversão e ele vai estourar um erro. ex: int.Parse("56b")
+
+//ToString()
+
+int inteiro = 90;
+string ab = inteiro.ToString();
+
+Console.WriteLine(ab);
+
+//casting implicito
+//quando um tipo cabe dentro do outro, ele faz a conversão implicita.
+
+int q = 5;
+double w = q ;
+//o inverso não pode acontecer
+//o int cabe dentro do double, então ele faz a conversão implicita.
+int yu = 10;
+long io = yu;
+//mesma coisa ai em cima.
+
+//o C# obdece a ordem da matemática, para resolução de problemas matemáticos. mesmo que eu não coloque os (), mas por se eu quiser aumentar a prioridade eu tenho que colocar.
+
+
+//conversão de maneira segura.
+
+string test = "16";
+int teste = 10;
+
+int.TryParse(test, out teste);
+Console.WriteLine(teste);
+//se ele não conseguir fazer a conversão ele vai retornar 0;
+//posso criar uma nova variavel com isso.
+int.TryParse(test, out int c);
+
+Console.WriteLine(c);
