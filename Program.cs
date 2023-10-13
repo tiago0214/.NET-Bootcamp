@@ -57,3 +57,14 @@ DateTime dataAtual = DateTime.Now.AddDays(5);
 
 Console.WriteLine(dataAtual);
 Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+
+//casting - cast (Conversão da variavel de um tipo para outro tipo.)
+//isso não quer dizer que vai dar certo. Se tiver algum valor invalido quebra o código (ARRISCADO)
+
+int a = Convert.ToInt32("5");
+//Covert: é uma class e o ToInt32(): é um método.
+
+//posso converter de outra maneira.
+int b = int.Parse("5");
+//posso fazer .Parse(), com outros tipos. double.Parse(), float.parse();
+//tomar cuidado, porque pode acontecer de o programa não conseguir fazer a conversão e ele vai estourar um erro. ex: int.Parse("56b")
