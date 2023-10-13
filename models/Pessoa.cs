@@ -9,7 +9,7 @@ namespace C_.models
     public class Pessoa
     {   
         // Minhas propriedades/atributos
-        public string Nome { get; set;}
+        public string? Nome { get; set;}
         public int Idade { get; set;}
 
         //meu metodo/função : realiza uma ação

@@ -17,4 +17,43 @@ pessoa1
 Idade = 29;
 //posso usar quebra de linha assim, igual em nodeJS
 
-pessoa1.Apresentar();
+//pessoa1.Apresentar();
+
+
+
+//declaração de variaveis.
+
+string apresentacao = "Olá, seja bem vindo";
+//o nome não é criar uma variavel, mas sim, declarar uma variavel.
+
+int quantidade = 1;
+
+double altura = 1.80;
+//posso colocar somente um numero, sem casa decimal dentro do double. 
+//mas não posso fazer isso dentro do int.
+
+decimal preco = 1.80M;
+//o 'M' no final, significa que eu estou passando um valor direto.
+//caso eu não coloque o 'M', eu tenho que usar o tipo double.
+//para sinalizar que eu quero aquele valor direto.
+
+bool condicao = true;
+
+Console.WriteLine(apresentacao);
+Console.WriteLine("O valor da minha variavel quantidade: "+quantidade);
+Console.WriteLine("O valor da minha variavel altura: "+altura);
+Console.WriteLine("O valor da minha variavel preco: "+preco);
+//reparar que na saida desse. Vai aparecer o 0 de 1.80 e no de cima não vai.
+//porque no preco,estou falando que eu quero aquele numero exato. Com o 'M'
+//para arrumar: altura.ToString("0.00")
+Console.WriteLine("O valor da minha variavel condicao: "+condicao);
+
+
+//date
+
+//nao esquecer que o nome que vem antes do nome da variavel, é o tipo.
+
+DateTime dataAtual = DateTime.Now.AddDays(5);
+
+Console.WriteLine(dataAtual);
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
