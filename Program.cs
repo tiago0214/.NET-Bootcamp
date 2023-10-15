@@ -93,7 +93,7 @@ long io = yu;
 
 //conversão de maneira segura.
 
-string test = "16";
+string test = "16-";
 int teste = 10;
 
 int.TryParse(test, out teste);
@@ -103,3 +103,66 @@ Console.WriteLine(teste);
 int.TryParse(test, out int c);
 
 Console.WriteLine(c);
+
+
+
+
+
+
+
+
+
+
+
+int quantidadeEmEstoque = 3;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"A quantidade em estoque é: {quantidadeEmEstoque}");
+Console.WriteLine($"A quantidade de compra é: {quantidadeCompra}");
+Console.WriteLine($"É possivel realizar a venda ?  {possivelVenda}");
+
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda invalida!");
+}
+else if(possivelVenda)
+{
+    Console.WriteLine("Venda realizada com sucesso!");
+}
+else
+{
+    Console.WriteLine("Não há essa quantidade em estoque!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Digite uma letra: ");
+string ?letra = Console.ReadLine();
+
+switch(letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("É uma vogal");
+        break;
+    default:
+    {
+        Console.WriteLine("Não é uma vogal");
+        break;
+    }
+}
+//reaparar que nesse código, eu digitei o Console.WriteLine(); no final dos meu cases, ou seja, ele vai passar por todas as verificações, porque ele o break somente no final do meu ultimo case.
