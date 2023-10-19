@@ -5,14 +5,171 @@
 //o namespace : vai ser usado aqui. Como um modo de eu encontrar as coisas do meu programa.(mesma coisa de import export do JS)
 using Csharp.models;
 
-int numero = 5 ;
-int contador = 0;
 
-while(contador <= 10)
-{
-    Console.WriteLine($"{contador}° Execução = {numero} x {contador} = {numero*contador}");
-    contador++;
-}
+int test1 = 10;
+int testeRealizados = 20;
+
+double porcetagem = ((testeRealizados - test1) * 100) / testeRealizados ;
+
+Console.WriteLine(porcetagem);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bool exibirMenu = true;
+
+// while (exibirMenu)
+// {
+//     Console.WriteLine("Digite a opção desejada");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscas cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar programa");
+
+//     string ?opcao = Console.ReadLine();
+
+//     switch(opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastrado");
+//             break;
+//         case "2":
+//             Console.WriteLine("Buscado");
+//             break;
+//         case "3":
+//             Console.WriteLine("Apagado");
+//             break;
+//         case "4":
+//             Console.WriteLine("Encerrado");
+//             exibirMenu = false;
+//             //Environment.Exit(0); fecha tudo // Não executa mais nada.
+//             break;
+//         default:
+//             Console.WriteLine("Opção invalida");
+//             break;
+//     }
+// }
+
+// Console.WriteLine("O programa se encerrou");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um número (0 para parar)");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// }
+// while(numero != 0);
+
+// Console.WriteLine($"A soma total dos numeros é {soma}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5 ;
+// int contador = 1;
+
+// while(contador <= 10)
+// {
+//     Console.WriteLine($"{contador}° Execução = {numero} x {contador} = {numero*contador}");
+//     contador++;
+
+//     //maneira de interroper o fluxo do programa. Mesmo, se a variavel de validação for verdadeira do while.
+//     //funciona com o for também 
+//     if(contador == 6 )
+//     {
+//         break;
+//     }
+// }
 
 
 
