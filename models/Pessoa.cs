@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 //o namespace é o caminho lógico para chegar nessa classe. Isso não se confunde com o caminho fisico.
 //posso mudar para o nome que eu quiser.
-namespace C_.models
+namespace Csharp.models
 {
     public class Pessoa
     {   
