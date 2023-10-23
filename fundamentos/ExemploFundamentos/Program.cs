@@ -6,79 +6,41 @@
 using Csharp.models;
 
 
-int test1 = 10;
-int testeRealizados = 20;
+bool exibirMenu = true;
 
-double porcetagem = ((testeRealizados - test1) * 100) / testeRealizados ;
+while (exibirMenu)
+{
+    Console.WriteLine("Digite a opção desejada");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscas cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar programa");
 
-Console.WriteLine(porcetagem);
+    string ?opcao = Console.ReadLine();
 
+    switch(opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastrado");
+            break;
+        case "2":
+            Console.WriteLine("Buscado");
+            break;
+        case "3":
+            Console.WriteLine("Apagado");
+            break;
+        case "4":
+            Console.WriteLine("Encerrado");
+            exibirMenu = false;
+            //Environment.Exit(0); fecha tudo // Não executa mais nada.
+            break;
+        default:
+            Console.WriteLine("Opção invalida");
+            break;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// bool exibirMenu = true;
-
-// while (exibirMenu)
-// {
-//     Console.WriteLine("Digite a opção desejada");
-//     Console.WriteLine("1 - Cadastrar cliente");
-//     Console.WriteLine("2 - Buscas cliente");
-//     Console.WriteLine("3 - Apagar cliente");
-//     Console.WriteLine("4 - Encerrar programa");
-
-//     string ?opcao = Console.ReadLine();
-
-//     switch(opcao)
-//     {
-//         case "1":
-//             Console.WriteLine("Cadastrado");
-//             break;
-//         case "2":
-//             Console.WriteLine("Buscado");
-//             break;
-//         case "3":
-//             Console.WriteLine("Apagado");
-//             break;
-//         case "4":
-//             Console.WriteLine("Encerrado");
-//             exibirMenu = false;
-//             //Environment.Exit(0); fecha tudo // Não executa mais nada.
-//             break;
-//         default:
-//             Console.WriteLine("Opção invalida");
-//             break;
-//     }
-// }
-
-// Console.WriteLine("O programa se encerrou");
+Console.WriteLine("O programa se encerrou");
 
 
 
@@ -241,14 +203,14 @@ Console.WriteLine(porcetagem);
 
 
 
-// Calculadora calc = new Calculadora();
+Calculadora calc = new Calculadora();
 
-// calc.Somar(1,2);
-// calc.Subtrair(1,2);
-// calc.Seno(30);
-// calc.Coseno(30);
-// calc.Tangente(30);
-// calc.RaizQuadrada(9);
+calc.Somar(1,2);
+calc.Subtrair(1,2);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+calc.RaizQuadrada(9);
 
 
 

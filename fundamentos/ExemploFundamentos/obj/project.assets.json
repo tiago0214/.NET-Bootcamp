@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiago\\Desktop\\estudos c#\\C#.csproj",
+      "projectUniqueName": "C:\\Users\\tiago\\Desktop\\dotnet-bootcamp\\fundamentos\\ExemploFundamentos\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "C:\\Users\\tiago\\Desktop\\estudos c#\\C#.csproj",
+      "projectPath": "C:\\Users\\tiago\\Desktop\\dotnet-bootcamp\\fundamentos\\ExemploFundamentos\\C#.csproj",
       "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiago\\Desktop\\estudos c#\\obj\\",
+      "outputPath": "C:\\Users\\tiago\\Desktop\\dotnet-bootcamp\\fundamentos\\ExemploFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
