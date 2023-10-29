@@ -3,9 +3,8 @@
 //oque esta dentro do OBJ, é referente a debugar. 
 //toda a ação é feita aqui, no program.cs. Ele é o ponto de entrada do nosso sistema.
 //o namespace : vai ser usado aqui. Como um modo de eu encontrar as coisas do meu programa.(mesma coisa de import export do JS)
-using System;
-
 using Exemplo.Common.models;
+using System;
 
 Pessoa p7 = new Pessoa();
 
