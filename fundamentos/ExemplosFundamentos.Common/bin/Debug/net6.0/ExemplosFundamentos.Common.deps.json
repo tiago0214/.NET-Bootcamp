@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "C#/1.0.0": {
-        "dependencies": {
-          "ExemplosFundamentos.Common": "1.0.0"
-        },
-        "runtime": {
-          "C#.dll": {}
-        }
-      },
       "ExemplosFundamentos.Common/1.0.0": {
         "runtime": {
           "ExemplosFundamentos.Common.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "C#/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "ExemplosFundamentos.Common/1.0.0": {
       "type": "project",
       "serviceable": false,

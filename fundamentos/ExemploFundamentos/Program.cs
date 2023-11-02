@@ -4,47 +4,132 @@
 //toda a ação é feita aqui, no program.cs. Ele é o ponto de entrada do nosso sistema.
 //o namespace : vai ser usado aqui. Como um modo de eu encontrar as coisas do meu programa.(mesma coisa de import export do JS)
 using Exemplo.Common.models;
-using System;
-
-Pessoa p7 = new Pessoa();
 
 
-bool exibirMenu = true;
 
-while (exibirMenu)
+//percorrer elementos do meu array
+
+int[] MeuArray = new int[3];
+
+MeuArray[0] = 62;
+MeuArray[1] = 70;
+MeuArray[2] = 80;
+
+for(int contador = 0; contador < MeuArray.Length ; contador ++ )
 {
-    Console.WriteLine("Digite a opção desejada");
-    Console.WriteLine("1 - Cadastrar cliente");
-    Console.WriteLine("2 - Buscas cliente");
-    Console.WriteLine("3 - Apagar cliente");
-    Console.WriteLine("4 - Encerrar programa");
-
-    string ?opcao = Console.ReadLine();
-
-    switch(opcao)
-    {
-        case "1":
-            Console.WriteLine("Cadastrado");
-            break;
-        case "2":
-            Console.WriteLine("Buscado");
-            break;
-        case "3":
-            Console.WriteLine("Apagado");
-            break;
-        case "4":
-            Console.WriteLine("Encerrado");
-            exibirMenu = false;
-            //Environment.Exit(0); fecha tudo // Não executa mais nada.
-            break;
-        default:
-            Console.WriteLine("Opção invalida");
-            break;
-    }
+    Console.WriteLine($"A posição {contador} - {MeuArray[contador]}");
 }
 
-Console.WriteLine("O programa se encerrou");
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //declaração de arrays.
+
+// //eu tenho que declarar o tamanho do meu array.
+
+// //nesse exemplo, eu estou falando que o meu array, é de 5 posições. E posso colocar os valores nele depois.
+// int[] MeuZinho = new int[5];
+
+// //se eu passar os valores diretos para o meu array, eu não preciso informar o tamnho que sera o meu array.
+// //acredito que não precissa dessa sintaxe.
+// int[] MeuArray = new int[]{4,5,6,7,8};
+
+// int[] Testtt = {5,6,7};
+
+// string[] nomes = {"Tiago","Shara","Camille"};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p7 = new Pessoa();
+
+
+// bool exibirMenu = true;
+
+// while (exibirMenu)
+// {
+//     Console.WriteLine("Digite a opção desejada");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscas cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar programa");
+
+//     string ?opcao = Console.ReadLine();
+
+//     switch(opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastrado");
+//             break;
+//         case "2":
+//             Console.WriteLine("Buscado");
+//             break;
+//         case "3":
+//             Console.WriteLine("Apagado");
+//             break;
+//         case "4":
+//             Console.WriteLine("Encerrado");
+//             exibirMenu = false;
+//             //Environment.Exit(0); fecha tudo // Não executa mais nada.
+//             break;
+//         default:
+//             Console.WriteLine("Opção invalida");
+//             break;
+//     }
+// }
+
+// Console.WriteLine("O programa se encerrou");
 
 
 

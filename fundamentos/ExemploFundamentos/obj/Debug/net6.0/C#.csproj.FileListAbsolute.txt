@@ -26,3 +26,7 @@ C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\
 C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.pdb
 C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.genruntimeconfig.cache
 C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\ref\C#.dll
+C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\ExemplosFundamentos.Common.dll
+C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\ExemplosFundamentos.Common.pdb
+C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.csproj.AssemblyReference.cache
+C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.csproj.CopyComplete
