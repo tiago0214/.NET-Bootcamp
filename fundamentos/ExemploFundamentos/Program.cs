@@ -5,20 +5,66 @@
 //o namespace : vai ser usado aqui. Como um modo de eu encontrar as coisas do meu programa.(mesma coisa de import export do JS)
 using Exemplo.Common.models;
 
+int[] MeuArray = new int[4];
 
-
-//percorrer elementos do meu array
-
-int[] MeuArray = new int[3];
-
-MeuArray[0] = 62;
-MeuArray[1] = 70;
-MeuArray[2] = 80;
-
-for(int contador = 0; contador < MeuArray.Length ; contador ++ )
+foreach (int valor in MeuArray)
 {
-    Console.WriteLine($"A posição {contador} - {MeuArray[contador]}");
+    Console.WriteLine(valor);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //percorrer elementos do meu array
+
+// int[] MeuArray = new int[3];
+
+// MeuArray[0] = 62;
+// MeuArray[1] = 70;
+// MeuArray[2] = 80;
+
+
+// //Percorrendo o array com o FOR
+// for(int contador = 0; contador < MeuArray.Length ; contador ++ )
+// {
+//     Console.WriteLine($"A posição {contador} - {MeuArray[contador]}");
+// }
+
+// //Percorrendo o array com o FOREACH
+
+// foreach(int valor in MeuArray)
+// {
+//     Console.WriteLine(valor);
+// }
+
+// //FOREACH só funciona em elementos do meu array.
 
 
 
