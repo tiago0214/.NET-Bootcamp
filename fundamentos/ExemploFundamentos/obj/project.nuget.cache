@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ksPFQkRCpkUGDMxWddBZngErY/OSFSpavvRjmId0+a+/KXhVivArKwrH7KHn4whUmpOM1QCH1ZbB5hr/zxNJNg==",
+  "dgSpecHash": "tkEAKcXmvumxocoDJGyKeOairiYhFIvuyw+nYkL7jJ95riyhNtgjVxGPovU/8903FpFUbFzojOoHakKc+U11+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tiago\\Desktop\\dotnet-bootcamp\\fundamentos\\ExemploFundamentos\\C#.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\dev\\dotnet-bootcamp\\fundamentos\\ExemploFundamentos\\C#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
