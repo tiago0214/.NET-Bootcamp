@@ -1,35 +1,3 @@
-C:\Users\tiago\Desktop\estudos c#\bin\Debug\net6.0\C#.exe
-C:\Users\tiago\Desktop\estudos c#\bin\Debug\net6.0\C#.deps.json
-C:\Users\tiago\Desktop\estudos c#\bin\Debug\net6.0\C#.runtimeconfig.json
-C:\Users\tiago\Desktop\estudos c#\bin\Debug\net6.0\C#.dll
-C:\Users\tiago\Desktop\estudos c#\bin\Debug\net6.0\C#.pdb
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\C#.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\C#.AssemblyInfoInputs.cache
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\C#.AssemblyInfo.cs
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\C#.csproj.CoreCompileInputs.cache
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\C#.dll
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\refint\C#.dll
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\C#.pdb
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\C#.genruntimeconfig.cache
-C:\Users\tiago\Desktop\estudos c#\obj\Debug\net6.0\ref\C#.dll
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\C#.exe
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\C#.deps.json
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\C#.runtimeconfig.json
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\C#.dll
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\C#.pdb
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.AssemblyInfoInputs.cache
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.AssemblyInfo.cs
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.csproj.CoreCompileInputs.cache
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.dll
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\refint\C#.dll
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.pdb
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.genruntimeconfig.cache
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\ref\C#.dll
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\ExemplosFundamentos.Common.dll
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\ExemplosFundamentos.Common.pdb
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.csproj.AssemblyReference.cache
-C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemploFundamentos\obj\Debug\net6.0\C#.csproj.CopyComplete
 C:\dev\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\C#.exe
 C:\dev\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\C#.deps.json
 C:\dev\dotnet-bootcamp\fundamentos\ExemploFundamentos\bin\Debug\net6.0\C#.runtimeconfig.json

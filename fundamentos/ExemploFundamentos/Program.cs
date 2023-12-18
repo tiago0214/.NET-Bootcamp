@@ -12,21 +12,20 @@ using Exemplo.Common.models;
 //     Console.WriteLine(valor);
 // }
 
-bool teste = false;
+int soma = 0;
+bool cont = true;
 
-if (!teste)
+for (; cont;)
 {
-    Console.WriteLine("true");
+    int numero = Convert.ToInt32(Console.ReadLine());
+    soma += numero;
+    if (numero == 0)
+    {
+        cont = false;
+    }
 }
-else
-{
-    Console.WriteLine("else");
-};
-
-
-
-
-
+//algumas coisa
+Console.WriteLine(soma);
 
 
 
@@ -227,7 +226,7 @@ else
 //     soma += numero;
 
 // }
-// while(numero != 0);
+// while (numero != 0);
 
 // Console.WriteLine($"A soma total dos numeros é {soma}");
 
