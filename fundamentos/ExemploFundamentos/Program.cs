@@ -5,12 +5,23 @@
 //o namespace : vai ser usado aqui. Como um modo de eu encontrar as coisas do meu programa.(mesma coisa de import export do JS)
 using Exemplo.Common.models;
 
-int[] MeuArray = new int[4];
+// int[] MeuArray = new int[4];
 
-foreach (int valor in MeuArray)
+// foreach (int valor in MeuArray)
+// {
+//     Console.WriteLine(valor);
+// }
+
+bool teste = false;
+
+if (!teste)
 {
-    Console.WriteLine(valor);
+    Console.WriteLine("true");
 }
+else
+{
+    Console.WriteLine("else");
+};
 
 
 
@@ -337,16 +348,14 @@ foreach (int valor in MeuArray)
 
 
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
-calc.Somar(1,2);
-calc.Subtrair(1,2);
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
-calc.RaizQuadrada(9);
-
-
+// calc.Somar(1, 2);
+// calc.Subtrair(1, 2);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+// calc.RaizQuadrada(9);
 
 
 
@@ -377,7 +386,9 @@ calc.RaizQuadrada(9);
 
 
 
-//isso aqui é uma varaivel
+
+
+//isso aqui é uma variavel
 // Pessoa pessoa1 = new Pessoa();
 
 // //posso fazer direto

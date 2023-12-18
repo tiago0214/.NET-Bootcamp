@@ -9,3 +9,15 @@ C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\ob
 C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\refint\ExemplosFundamentos.Common.dll
 C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ExemplosFundamentos.Common.pdb
 C:\Users\tiago\Desktop\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ref\ExemplosFundamentos.Common.dll
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\bin\Debug\net6.0\ExemplosFundamentos.Common.deps.json
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\bin\Debug\net6.0\ExemplosFundamentos.Common.dll
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\bin\Debug\net6.0\ExemplosFundamentos.Common.pdb
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ExemplosFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ExemplosFundamentos.Common.AssemblyInfoInputs.cache
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ExemplosFundamentos.Common.AssemblyInfo.cs
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ExemplosFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ExemplosFundamentos.Common.sourcelink.json
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ExemplosFundamentos.Common.dll
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\refint\ExemplosFundamentos.Common.dll
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ExemplosFundamentos.Common.pdb
+C:\dev\dotnet-bootcamp\fundamentos\ExemplosFundamentos.Common\obj\Debug\net6.0\ref\ExemplosFundamentos.Common.dll
