@@ -12,6 +12,7 @@ using Exemplo.Common.models;
 //     Console.WriteLine(valor);
 // }
 
+
 int soma = 0;
 bool cont = true;
 
@@ -26,9 +27,6 @@ for (; cont;)
 }
 //algumas coisa
 Console.WriteLine(soma);
-
-
-
 
 
 
