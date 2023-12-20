@@ -5,6 +5,104 @@
 //o namespace : vai ser usado aqui. Como um modo de eu encontrar as coisas do meu programa.(mesma coisa de import export do JS)
 using Exemplo.Common.models;
 
+
+
+List<string> minhaLista = new List<string>();
+
+minhaLista.Add("Tiago");
+minhaLista.Add("Shara");
+minhaLista.Add("Camille");
+
+foreach (string item in minhaLista)
+{
+    Console.WriteLine(item);
+}
+//uma lista é como se fosse um array, com bem mais métodos.
+//tem bem mais métodos que um array.
+//uma lista: trabalho com um array internamente.
+//principal diferença entre a lista e o array, é que na lista , eu não preciso me preocupar com a capacidade máxima e com o array, eu preciso.
+//lembrar que a lista trabalha com o array internamente. Então quando eu crio a lista ela provavelmente cria um array com uma capacidade máximo(4), só que ela vai aumentando automaticamente.
+//a lista funciona igual o array, no JS.
+//Outra diferença, pelo fato do array ter um capacidade predefinida e todos os valores começar com o 0, se eu remover um elemento do meu array. aquele lugar fica vazio. Agora na lista, se eu remover algum item dela. Os outros itens trocam de posição.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int[] arrayInteiros = new int[4];
+
+// arrayInteiros[0] = 10;
+// arrayInteiros[1] = 20;
+// arrayInteiros[2] = 30;
+// arrayInteiros[3] = 40;
+
+// //Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// int[] arrayDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayDobrado, arrayInteiros.Length);
+
+// foreach (int item in arrayDobrado)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // int[] MeuArray = new int[4];
 
 // foreach (int valor in MeuArray)
@@ -13,20 +111,10 @@ using Exemplo.Common.models;
 // }
 
 
-int soma = 0;
-bool cont = true;
 
-for (; cont;)
-{
-    int numero = Convert.ToInt32(Console.ReadLine());
-    soma += numero;
-    if (numero == 0)
-    {
-        cont = false;
-    }
-}
-//algumas coisa
-Console.WriteLine(soma);
+
+
+
 
 
 
