@@ -1,0 +1,15 @@
+C:\dev\dotnet-bootcamp\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.exe
+C:\dev\dotnet-bootcamp\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.deps.json
+C:\dev\dotnet-bootcamp\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.runtimeconfig.json
+C:\dev\dotnet-bootcamp\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.dll
+C:\dev\dotnet-bootcamp\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.pdb
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfo.cs
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.dll
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\refint\ExemploExplorando.dll
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
+C:\dev\dotnet-bootcamp\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
