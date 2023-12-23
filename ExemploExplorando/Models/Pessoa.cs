@@ -12,12 +12,22 @@ using System.Threading.Tasks;
 
 
 
-
+//por padrão(Convenção) os construtores ficam logo debaixo da minha classe;
+//os construtores sempre tem que ter o mesmo nome da sua classe.
+//posso criar os meus construtores sem parametros. Mas se eu colocar parametros para ele , obrigatoriamente, toda vez que instanciar a minha classe eu preciso passar os parametros para a minha instanciação.
+//posso ter quantos construtores eu quiser. No exemplo de baixo, eu posso usar qualquer dos construtores para instanciar a minha classe. O primeiro, meio que vai ser o meu padrão.
 
 namespace ExemploExplorando.Models
 {
     public class Pessoa
     {
+        public Pessoa() { }
+
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
         //entender que a modificação do _nome, é só feita pela a minha propria class.
         private string _nome;
         // o _nome, se chama "CAMPO"/Variavel de instancia.
@@ -42,6 +52,7 @@ namespace ExemploExplorando.Models
         public string Sobrenome { get; set; }
         public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
         //essa propriedade ai de cima, so tem GET, ou seja, somente retorna algo, por isso eu usei o body expression.
+        //propriedade que somente retorna, eu somente não posso passar um valor para ela, mas, eu posso deixar um valor nela para que ela retorne. quando eu digo que eu não posso passar um valor, quero dizer que ela não pode receber nenhum valor quando eu instancio, eu somente posso colocar o valor pra ela.
 
         public int Idade
         {
