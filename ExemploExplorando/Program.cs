@@ -1,14 +1,245 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
+using System.Runtime.CompilerServices;
+
+//new TesteExcecao().Metodo1();
+
+//dictionary
+//é outra coleção: só que essa é uma coleção de CHAVE e VALOR, para armazenar valores únicos sem uma ordem específica. (obrigatoriedade: valores únicos.)
+//eu preciso declarar quais são os tipos dos meus elementos. Exemplo Dictionary <string, string> O primeiro valor, sempre tem que ser único, se por acaso ele se repetir, vai dar uma exceção.
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+estados.Add("SP", "São Paulo");
+estados.Add("GO", "Goiás");
+
+foreach (KeyValuePair<string, string> item in estados)
+{//se eu não quiser usar a palavra KeyValuePair, eu posso usar a VAR, porque ele vai reconhecer automaticamente, sobre oque ela deve ser.
+    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+}
+//sempre lembrar que quando eu tenho mais de uma coisa, dentro do mesmo escopo, por exemplo mas de metodo dentro de uma classe, ou mais coisa para usar dentro de qualquer coisa, exempplo, dentro de um dictionary, porque ele sempre tem chave e valor, eu preciso utilizar a notação ponto e falar oque eu quero.
 
 
-string dataString = "30/12/2023 14:30";
-DateTime.TryParseExact(dataString, "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
-// esse metodo vai tentar fazer o parse da minha string, parametros: 1:string, 2: formato, 3: variante de cultura(independe da cultura, porque eu já defini o formato), 4: sem estilo, mesma coisa do parametro anterior, porque eu já defini o formato que eu espero, 5: se ele conseguir converter ou não, ele vai jogar na minha variavel chamada data.
-//com essa conversão, diferente da outra, se der erro, ele não da erro no meu programa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //falar sobre pilhas (sempre lembrar que pilhas e filas: respeitam regras de inserção e remoção dos seus elementos)
+// //obdece a regra do LIFO
+// Stack<int> pilha = new Stack<int>();
+
+// pilha.Push(4);
+// pilha.Push(6);
+// pilha.Push(8);
+// pilha.Push(10);
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+// Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+// //mesma coisa que aconteceu na fila,eu não passo qual elemento. Sempre vai ser o elemento to topo, aqui na pilha.
+// pilha.Push(20);
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//falar sobre filas. (sempre lembrar que pilhas e filas: respeitam regras de inserção e remoção dos seus elementos)
+
+//oCsharp tem as filas, que obdecem o a regra FIFO, e não pode ser alterada, ele sempre vai obdecer essa regra. Fila é um tipo de coleção igual existe com os outros tipos, igual array e listas, você também tem que passar o tipo da fila.
+
+// Queue<int> fila = new Queue<int>();
+
+// fila.Enqueue(2);
+// fila.Enqueue(4);
+// fila.Enqueue(6);
+// fila.Enqueue(8);
+
+// foreach (int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+// Console.WriteLine($"Removendo o elemento:{fila.Dequeue()}");
+// fila.Enqueue(20);
+// foreach (int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+//sempre remove o primeiro elemento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//na leitura de arquivo, cada linha do meu arquivo é uma string, por isso ele vai me retornar um array de string.
+// try
+// {
+//     string[] linhas = File.ReadAllLines("Arquivoa/arquivoLeitura.txt");
+
+//     foreach (string linha in linhas)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// catch (FileNotFoundException ex)
+// {
+//     Console.WriteLine($"Caminho não encontrado:  {ex.Message}");
+// }
+// catch (DirectoryNotFoundException)
+// {
+//     Console.WriteLine($"Diretorio não encontrado:");
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine($"Ocorreu uma exceção do tipo genérica: {ex.Message}");
+// }
+// finally
+// {
+//     Console.WriteLine("Cheguei até aqui. Independente de erro.");
+// }
+
+// a diferença entre a exceção genérica e a especifica, que a generica, é todas as minhas exceções, enquanto a especifica, eu uso direto o nome da minha exceção Exemplos acima.
+//as exceções especificas: você pega uma metodo em C#, que pode acontecer alguma exceção, e trata de todas as exceções desse metodo.
+//entender, que a exceção genérica, so é chamada quando a especifica não é tratada.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string dataString = "88/12/2023 14:30";
+
+
+// bool sucesso = DateTime.TryParseExact(dataString, "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+// // esse metodo vai tentar fazer o parse da minha string, parametros: 1:string, 2: formato, 3: variante de cultura(independe da cultura, porque eu já defini o formato), 4: sem estilo, mesma coisa do parametro anterior, porque eu já defini o formato que eu espero, 5: se ele conseguir converter ou não, ele vai jogar na minha variavel chamada data.
+// //com essa conversão, diferente da outra, se der erro, ele não da erro no meu programa.
+
+
+// if (sucesso)
+// {
+//     Console.WriteLine($"Conversão realizada com sucesso: {data}");
+// }
+// else
+// {
+//     Console.WriteLine($"Falha na conversão, data : {data}");
+// }
 
 //agora eu vou para um exemplo, em que eu estou esperando receber uma data, mas provavelmente ela vai vir como string, então eu tenho que converte-lá.
-Console.WriteLine(data);
 
 
 
