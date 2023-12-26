@@ -11,6 +11,7 @@ using System.Runtime.CompilerServices;
 Dictionary<string, string> estados = new Dictionary<string, string>();
 estados.Add("SP", "São Paulo");
 estados.Add("GO", "Goiás");
+estados.Add("BA", "Bahia");
 
 foreach (KeyValuePair<string, string> item in estados)
 {//se eu não quiser usar a palavra KeyValuePair, eu posso usar a VAR, porque ele vai reconhecer automaticamente, sobre oque ela deve ser.
@@ -18,6 +19,19 @@ foreach (KeyValuePair<string, string> item in estados)
 }
 //sempre lembrar que quando eu tenho mais de uma coisa, dentro do mesmo escopo, por exemplo mas de metodo dentro de uma classe, ou mais coisa para usar dentro de qualquer coisa, exempplo, dentro de um dictionary, porque ele sempre tem chave e valor, eu preciso utilizar a notação ponto e falar oque eu quero.
 
+//praticamente tudo oque eu for fazer no meu dictionary, eu utilizo a chave como referência.
+Console.WriteLine("---------------");
+estados.Remove("BA");
+//não consigo trocar o nome da minha chave, eu preciso remover e adcionar de novo,
+
+foreach (KeyValuePair<string, string> item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+}
+
+//alterar o valor (reparar que eu manipulo a alteração de valor igual o array, porém aqui, eu não trabalho com o indice, mas sim com o valor da chave)
+estados["SP"] = "São paulo - Valor Alterado";
+Console.WriteLine(estados["SP"]);
 
 
 
