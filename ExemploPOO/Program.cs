@@ -1,17 +1,109 @@
 ﻿using ExemploPOO.Models;
-
-Pessoa p1 = new Pessoa("Tiago");
-Aluno a1 = new Aluno("Shara");
-Professor prof = new Professor("Camille");
+using ExemploPOO.Interfaces;
 
 
-p1.Apresentar();
-a1.Apresentar();
-prof.Apresentar();
+//posso instanciar a classe assim normalmente.
+Calculadora c1 = new Calculadora();
+Console.WriteLine(c1.Somar(1, 2));
+
+// como também posso fazer assim: aqui eu estou dizendo que a minha interface ICalculadora vai receber um new calculadora, porque a minha classe calculadora, faz a implementação da minha interface ICalculodora. Se eu tentasse fazer isso com qualquer outra classe daria erro, se eu não tivesse feito a implementação da interface dentro da classe.
+ICalculadora c2 = new Calculadora();
+//descrição. Eu estou usando uma interface que recebe um new calculadora().
+//a interface é como se fosse um contrato. Para que seja considerado ICalculadora. Você tem que fazer a implementação de todos os metodos.
 
 
-Diretor d1 = new Diretor("tiago");
-d1.Apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Computador c = new Computador();
+// Console.WriteLine(c.ToString());
+//eu consigo sobrescrever o meu método ToString padrão. Porque ele é uma herança da classe Object. que é o pai de todas as classes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Tiago");
+// Aluno a1 = new Aluno("Shara");
+// Professor prof = new Professor("Camille");
+
+
+// p1.Apresentar();
+// a1.Apresentar();
+// prof.Apresentar();
+
+
+// Diretor d1 = new Diretor("tiago");
+// d1.Apresentar();
 
 
 
