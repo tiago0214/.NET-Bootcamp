@@ -9,7 +9,7 @@ namespace ExemploPOO.Models
     {
         //aqui, eu posso escolher se eu coloco o construtor vazio ou não, porque na minha classe pai, eu coloquei. Só que se eu não colocar o construtor vazio, ele vai ser obrigatorio a definição do nome na instanciação da minha classe professor e aluno. 
 
-
+        public Professor() { }
 
 
         //esse base aqui. é como se eu estivesse chamando o constutor da minha classe pessoa.PORQUE é obrigatoria, porque eu defini na minha classe pessoa, um construtor.
@@ -23,7 +23,7 @@ namespace ExemploPOO.Models
 
         public decimal Salario { get; set; }
 
-        public override void Apresentar()
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Olá meu nome é {Nome}, tenho {Idade}, sou professor e ganho {Salario}");
         }

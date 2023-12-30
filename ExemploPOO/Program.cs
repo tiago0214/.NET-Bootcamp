@@ -10,7 +10,8 @@ a1.Apresentar();
 prof.Apresentar();
 
 
-
+Diretor d1 = new Diretor("tiago");
+d1.Apresentar();
 
 
 
