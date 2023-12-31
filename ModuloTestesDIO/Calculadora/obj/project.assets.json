@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\ModuloTestesDIO\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\dev\\dotnet-bootcamp\\ModuloTestesDIO\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\dev\\ModuloTestesDIO\\Calculadora\\Calculadora.csproj",
+      "projectPath": "C:\\dev\\dotnet-bootcamp\\ModuloTestesDIO\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\ModuloTestesDIO\\Calculadora\\obj\\",
+      "outputPath": "C:\\dev\\dotnet-bootcamp\\ModuloTestesDIO\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config"

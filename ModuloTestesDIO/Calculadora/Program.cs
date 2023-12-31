@@ -1,8 +1,13 @@
 ﻿using Calculadora.services;
 
-CalculadoraImp c = new CalculadoraImp();
+// CalculadoraImp c = new CalculadoraImp();
 
-int num1 = 5;
-int num2 = 10;
+// int num1 = 5;
+// int num2 = 10;
 
-Console.WriteLine($"A soma de {num1} + {num2} = {c.Somar(num1, num2)}");
+// Console.WriteLine($"A soma de {num1} + {num2} = {c.Somar(num1, num2)}");
+
+
+ValidacoesString v = new ValidacoesString();
+
+Console.WriteLine(v.ContarCaracteres("Tiago"));

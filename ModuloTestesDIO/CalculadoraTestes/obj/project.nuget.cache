@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gKEOoT5iw7J3rs3lxPKvBhhvTzFTnsyrxtpFwITAvI2GTeitzeNUPJWh1TKeucBp47/9v6ZT2NTW6mdVXGoWoA==",
+  "dgSpecHash": "vhsaTNDSD//UfkOtuEUifyx4x/fN4gV59d58LcnX3y+WZVHulrRpJEbC+cGOi1W78NN7sHqtkfpgYH4KXpIg4Q==",
   "success": true,
-  "projectFilePath": "C:\\dev\\ModuloTestesDIO\\CalculadoraTestes\\CalculadoraTestes.csproj",
+  "projectFilePath": "C:\\dev\\dotnet-bootcamp\\ModuloTestesDIO\\CalculadoraTestes\\CalculadoraTestes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiago\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\tiago\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
