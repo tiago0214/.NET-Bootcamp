@@ -40,4 +40,48 @@ public class CalculadoraTests
         // Then
         Assert.Equal(20, resultado);
     }
+
+    [Fact]
+    public void VerificarSeEhUmNumeroPar()
+    {
+        //Arrange
+        int num = 4;
+
+        //Act
+        bool resultado = _calc.EhPar(num);
+
+        //Assert
+        Assert.True(resultado);
+    }
+
+    // [Theory]  //por causa do theory, esse cenário de teste vai ser executado mais de uma vez.
+    // [InlineData(2)]         //Isso é uma cadeia de dados que vai ser jogado cada um de uma vez, dentro do meu método de verificar.
+    // [InlineData(4)]         //cada InlineData, é um teste diferente.
+    // [InlineData(6)]         //Em um único teste, eu estou validando varios cenários.
+    // [InlineData(8)]
+    // [InlineData(10)]
+    // public void DeveVerificarSeTodosOsNumerosPassadosSaoPares(int num)
+    // {
+    //     //Act
+    //     bool resultado = _calc.EhPar(num);
+    //     //Assert
+    //     Assert.True(resultado);
+    // }
+
+    [Theory]
+    [InlineData(new int[] { 2, 4 })]
+    [InlineData(new int[] { 6, 8, 10 })]
+    public void DeveVerificarSeTodosOsNumerosPassadosSaoPares(int[] numero)
+    {//para percorrer a lista , eu poderia fazer com o foreach normal.
+
+        // foreach (int item in numero)
+        // {
+        //     Assert.True(_calc.EhPar(item));
+        // }
+
+        //posso fazer tudo em uma linha só
+        Assert.All(numero, num => Assert.True(_calc.EhPar(num)));
+        // (Assert.All)esse método, recebe uma coleção como parametro e depois uma ação.
+        //o método que eu passei, ele percorre todos os elementos da minha coleção. E executa a ação.
+    }
 }

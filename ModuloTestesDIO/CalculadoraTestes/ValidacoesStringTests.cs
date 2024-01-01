@@ -19,7 +19,7 @@ namespace CalculadoraTestes
 
 
         [Fact]
-        public void ValidarStringTextoCom5deveRetornar5()
+        public void ValidarStringTextoCom5CaracteresEDeveRetornar5()
         {
             string texto = "tiago";
 
